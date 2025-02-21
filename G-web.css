@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  padding: 20px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+header a, li, button{
+  color: black;
+  background-color: none;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+}
+header li{
+  display: inline-block;
+  padding-right: 10px;
+}
+header li a:hover{
+  color: orange;
+}
+header button{
+  padding: 10px;
+  color: white;
+  background-color: orange;
+}
