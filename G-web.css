@@ -6,11 +6,12 @@
 header{
   display: flex;
   padding: 20px 10%;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 header .logo{
-  margin-right: auto;
+  order: 3;
+  margin-left: auto;
 }
 header a, li, button{
   color: black;
