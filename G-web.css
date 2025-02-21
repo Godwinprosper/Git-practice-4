@@ -9,6 +9,7 @@ header{
   justify-content: flex-end;
   align-items: center;
   border-bottom: 1px solid orange;
+  margin-bottom: 30px;
 }
 header .logo{
   margin-right: auto;
@@ -33,6 +34,10 @@ header button{
   color: white;
   background-color: orange;
 }
+header button:hover{
+  background-color: rgb(212, 142, 10);
+  font-weight: bold;
+}
 
 /* first section */
 .section1{
@@ -43,6 +48,18 @@ header button{
   height: 80vh;
 }
 .section1 div{
+  border: 1px solid orange ;
+  border-radius: 8px;
+  padding: 10px;
+}
+.section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding:20px 5%;
+  height: 80vh;
+}
+.section2 div{
   border: 1px solid orange ;
   border-radius: 8px;
   padding: 10px;
