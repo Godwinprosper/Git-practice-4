@@ -1,0 +1,1 @@
+document.querySelector('.div2').innerHTML = 'WELCOME'
