@@ -33,6 +33,7 @@ header button{
   padding: 10px;
   color: white;
   background-color: orange;
+  border-radius: 5px;
 }
 header button:hover{
   background-color: rgb(212, 142, 10);
@@ -63,4 +64,8 @@ header button:hover{
   border: 1px solid orange ;
   border-radius: 8px;
   padding: 10px;
+}
+.section3{
+  height: 80vh;
+  border: 1px solid orange;
 }
